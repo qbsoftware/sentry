@@ -29,7 +29,7 @@ source install/check-minimum-requirements.sh
 # in order to determine whether or not the clickhouse version needs to be upgraded.
 source install/upgrade-clickhouse.sh
 source install/turn-things-off.sh
-source install/create-docker-volumes.sh
+#source install/create-docker-volumes.sh
 source install/ensure-files-from-examples.sh
 source install/check-memcached-backend.sh
 source install/ensure-relay-credentials.sh
